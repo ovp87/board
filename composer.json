@@ -13,16 +13,16 @@
         "laravel/framework": "^7.0"
     },
     "require-dev": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Simpler\\Board\\Providers\\BoardProvider"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
             "Simpler\\Board\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Providers\\BoardProvider"
+            ]
         }
     }
 }
